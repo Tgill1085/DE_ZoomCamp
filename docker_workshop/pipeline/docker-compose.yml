@@ -88,5 +88,9 @@ services:
       - "8081:8081"
     depends_on:
       kestra_postgres:
+<<<<<<< HEAD
         condition: service_started
     
+=======
+        condition: service_started
+>>>>>>> 3fe8197 (Added analytics engineering folder)
